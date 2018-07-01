@@ -13,7 +13,7 @@ export class ContractsService {
   private _web3: any;
 
   private _tokenContract: any;
-  private _tokenContractAddress: string = "0xbc84f3bf7dd607a37f9e5848a6333e6c188d926c";
+  private _tokenContractAddress: string = "0x4A4CDa1E3DEc502E7811643AD2a636C9F00d9b42";
 
   constructor() {
     if (typeof window.web3 !== 'undefined') {
