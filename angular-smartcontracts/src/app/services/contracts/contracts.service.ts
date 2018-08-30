@@ -91,6 +91,8 @@ export class ContractsService {
     return Promise.resolve(this._account);
   }
 
+  
+
   public async getUserBalance(): Promise<number> {
     
     let account = await this.getAccount();
